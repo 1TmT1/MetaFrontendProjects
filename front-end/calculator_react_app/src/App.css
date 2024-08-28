@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  padding: 1rem 2rem;
+}
+
+p {
+  margin: 1rem 0;
+}
+
+input,
+button {
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+input {
+  display: block;
+  margin-bottom: 20px;
+}
+
+button {
+  border: 1px solid gray;
+  background: whitesmoke;
+  margin-right: 5px;
+  cursor: pointer;
+  transition: 0.2s ease-out;
+}
+
+button:hover {
+  background: white;
+}
+
+button:nth-last-child(2),
+button:nth-last-child(1) {
+  background: tomato;
+  color: white;
+  transition: 0.15s ease-out;
+}
+
+button:nth-last-child(2):hover,
+button:nth-last-child(1):hover {
+  background: white;
+  color: tomato;
+}
